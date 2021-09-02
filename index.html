@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Shop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+  <h1 class="col-md-6 text-success mx-auto">Find Your Favourite Books Here</h1>
+    <div class="container">
+        <form class="col-md-6 m-auto py-5">
+            <div class="input-group mb-3">
+                <input id="search-input" type="text" class="form-control" placeholder="Enter a Book Name ...">
+                <div class="input-group-append">
+                    <button onclick="loadButton()" type="button" class="btn btn-danger">Search</button>
+                </div>
+            </div>
+        </form>
+
+        <!-- Search result show -->
+
+        <div id="search-result" class="bg-success m-2 p-5">
+          <!-- <div>
+            <p class="text-success col-md-6 mx-auto">Total 500 result Found</p>
+          </div> -->
+          
+        </div>
+
+
+
+    <!-- Show Books -->
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="show-desc">
+       
+          <!--  <div class="card rounded-5 shadow-lg">
+            <img src="..." class="card-img-top" alt="...">
+           <div>
+            <div class="card-body">
+              <h5 class="card-title"><span class="text-success"> Book Name:</span>The Peal</h5>
+              <p class="card-text"><span class="text-success"> Author Name :</span> Peal</p>
+              <p class="card-text"><span class="text-success"> Publisher :</span> Peal</p>
+              <p class="card-text"><span class="text-success">1st Published :</span> Peal</p>
+              
+            </div>
+           </div>
+          </div>
+        </div> 
+       
+        
+        
+      </div> -->
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Js -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
+</body>
+</html>
